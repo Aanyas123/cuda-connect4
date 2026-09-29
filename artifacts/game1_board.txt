@@ -1,0 +1,231 @@
+Connect Four: Player 1 = X (red), Player 2 = O (yellow)
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
++-------------+
+
+Move 1: Player 1 (X, mc) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . X . . .|
++-------------+
+
+Move 2: Player 2 (O, minimax) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . O . . .|
+|. . . X . . .|
++-------------+
+
+Move 3: Player 1 (X, mc) plays column 4
+         v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . O . . .|
+|. . . X X . .|
++-------------+
+
+Move 4: Player 2 (O, minimax) plays column 2
+     v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . O . . .|
+|. . O X X . .|
++-------------+
+
+Move 5: Player 1 (X, mc) plays column 6
+             v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . O . . .|
+|. . O X X . X|
++-------------+
+
+Move 6: Player 2 (O, minimax) plays column 5
+           v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . O . . .|
+|. . O X X O X|
++-------------+
+
+Move 7: Player 1 (X, mc) plays column 4
+         v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . O X . .|
+|. . O X X O X|
++-------------+
+
+Move 8: Player 2 (O, minimax) plays column 4
+         v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . O . .|
+|. . . O X . .|
+|. . O X X O X|
++-------------+
+
+Move 9: Player 1 (X, mc) plays column 6
+             v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . O . .|
+|. . . O X . X|
+|. . O X X O X|
++-------------+
+
+Move 10: Player 2 (O, minimax) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . O O . .|
+|. . . O X . X|
+|. . O X X O X|
++-------------+
+
+Move 11: Player 1 (X, mc) plays column 6
+             v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . O O . X|
+|. . . O X . X|
+|. . O X X O X|
++-------------+
+
+Move 12: Player 2 (O, minimax) plays column 6
+             v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . O|
+|. . . O O . X|
+|. . . O X . X|
+|. . O X X O X|
++-------------+
+
+Move 13: Player 1 (X, mc) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . X . . O|
+|. . . O O . X|
+|. . . O X . X|
+|. . O X X O X|
++-------------+
+
+Move 14: Player 2 (O, minimax) plays column 2
+     v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . X . . O|
+|. . . O O . X|
+|. . O O X . X|
+|. . O X X O X|
++-------------+
+
+Move 15: Player 1 (X, mc) plays column 4
+         v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . X X . O|
+|. . . O O . X|
+|. . O O X . X|
+|. . O X X O X|
++-------------+
+
+Move 16: Player 2 (O, minimax) plays column 2
+     v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . X X . O|
+|. . O O O . X|
+|. . O O X . X|
+|. . O X X O X|
++-------------+
+
+Move 17: Player 1 (X, mc) plays column 2
+     v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . X X X . O|
+|. . O O O . X|
+|. . O O X . X|
+|. . O X X O X|
++-------------+
+
+Move 18: Player 2 (O, minimax) plays column 5
+           v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . X X X . O|
+|. . O O O . X|
+|. . O O X O X|
+|. . O X X O X|
++-------------+
+
+Move 19: Player 1 (X, mc) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . X . . .|
+|. . X X X . O|
+|. . O O O . X|
+|. . O O X O X|
+|. . O X X O X|
++-------------+
+
+Move 20: Player 2 (O, minimax) plays column 5
+           v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . X . . .|
+|. . X X X . O|
+|. . O O O O X|
+|. . O O X O X|
+|. . O X X O X|
++-------------+
+
+RESULT: Player 2 (O, minimax) wins after 20 moves

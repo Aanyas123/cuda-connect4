@@ -1,0 +1,12 @@
+[P1 mc] GPU 0: NVIDIA L4 (compute 8.9, 58 SMs)
+[P1 mc] move  1: column 3  score 0.7434   458752 playouts in 0.60 ms  column scores [0.519 0.575 0.643 0.743 0.642 0.581 0.521]
+[P1 mc] move  3: column 4  score 0.822    458752 playouts in 0.52 ms  column scores [0.703 0.754 0.822 0.684 0.822 0.751 0.704]
+[P1 mc] move  5: column 6  score 0.9086   458752 playouts in 0.44 ms  column scores [0.55 0.527 0.671 0.631 0.698 0.908 0.909]
+[P1 mc] move  7: column 4  score 0.497    458752 playouts in 0.44 ms  column scores [0.263 0.238 0.368 0.353 0.497 0.415 0.45]
+[P1 mc] move  9: column 6  score 0.3716   458752 playouts in 0.40 ms  column scores [0.208 0.25 0.294 0.317 0.274 0.0818 0.372]
+[P1 mc] move 11: column 6  score 0.8714   458752 playouts in 0.32 ms  column scores [0.214 0.232 0.237 0.319 0.272 0.108 0.871]
+[P1 mc] move 13: column 3  score 0.163    458752 playouts in 0.35 ms  column scores [0.0871 0.0943 0.104 0.163 0.149 0.028 0.0562]
+[P1 mc] move 15: column 4  score 0.288    458752 playouts in 0.31 ms  column scores [0.115 0.168 0.25 0.15 0.288 0.034 0.0697]
+[P1 mc] move 17: column 2  score 0.08273  458752 playouts in 0.12 ms  column scores [0 0 0.0827 0 0 0 0]
+[P1 mc] move 19: column 3  score 0        458752 playouts in 0.02 ms  column scores [0 0 0 0 0 0 0]
+[P1 mc] game over: Player 2 (O, minimax) wins after 20 moves

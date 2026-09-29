@@ -1,0 +1,17 @@
+[P1 minimax] GPU 0: NVIDIA L4 (compute 8.9, 58 SMs)
+[P1 minimax] move  1: column 3  score 8        823543 leaves in 0.18 ms  column scores [2 3 6 8 6 3 2]
+[P1 minimax] move  3: column 3  score 11       823543 leaves in 0.27 ms  column scores [5 8 7 11 7 3 4]
+[P1 minimax] move  5: column 3  score 12       823543 leaves in 0.27 ms  column scores [7 7 7 12 6 2 1]
+[P1 minimax] move  7: column 4  score 15       823543 leaves in 0.26 ms  column scores [10 10 9 14 15 6 4]
+[P1 minimax] move  9: column 4  score 24       823543 leaves in 0.25 ms  column scores [16 19 18 20 24 16 16]
+[P1 minimax] move 11: column 3  score 33       823543 leaves in 0.24 ms  column scores [21 25 24 33 31 25 25]
+[P1 minimax] move 13: column 1  score 36       823543 leaves in 0.21 ms  column scores [-1e+05 36 -1e+05 -1e+05 -1e+05 -1e+05 -1e+05]
+[P1 minimax] move 15: column 3  score 39       823543 leaves in 0.22 ms  column scores [29 32 32 39 31 39 39]
+[P1 minimax] move 17: column 5  score 43       823543 leaves in 0.18 ms  column scores [36 41 41 - 41 43 41]
+[P1 minimax] move 19: column 1  score 44       823543 leaves in 0.18 ms  column scores [37 44 43 - 43 44 40]
+[P1 minimax] move 21: column 6  score 49       823543 leaves in 0.16 ms  column scores [-1e+05 -1e+05 -1e+05 - -1e+05 -1e+05 49]
+[P1 minimax] move 23: column 1  score 56       823543 leaves in 0.17 ms  column scores [48 56 54 - 54 54 52]
+[P1 minimax] move 25: column 0  score 61       823543 leaves in 0.16 ms  column scores [61 - 53 - 57 59 53]
+[P1 minimax] move 27: column 2  score 1e+05    823543 leaves in 0.15 ms  column scores [1e+05 - 1e+05 - 1e+05 1e+05 1e+05]
+[P1 minimax] move 29: column 2  score 1e+05    823543 leaves in 0.14 ms  column scores [1e+05 - 1e+05 - 1e+05 1e+05 1e+05]
+[P1 minimax] game over: Player 1 (X, minimax) wins after 29 moves

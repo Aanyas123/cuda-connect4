@@ -1,0 +1,330 @@
+Connect Four: Player 1 = X (red), Player 2 = O (yellow)
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
++-------------+
+
+Move 1: Player 1 (X, minimax) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . X . . .|
++-------------+
+
+Move 2: Player 2 (O, mc) plays column 4
+         v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . X O . .|
++-------------+
+
+Move 3: Player 1 (X, minimax) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . X . . .|
+|. . . X O . .|
++-------------+
+
+Move 4: Player 2 (O, mc) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . . . . .|
+|. . . O . . .|
+|. . . X . . .|
+|. . . X O . .|
++-------------+
+
+Move 5: Player 1 (X, minimax) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . X . . .|
+|. . . O . . .|
+|. . . X . . .|
+|. . . X O . .|
++-------------+
+
+Move 6: Player 2 (O, mc) plays column 4
+         v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . X . . .|
+|. . . O . . .|
+|. . . X O . .|
+|. . . X O . .|
++-------------+
+
+Move 7: Player 1 (X, minimax) plays column 4
+         v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . X . . .|
+|. . . O X . .|
+|. . . X O . .|
+|. . . X O . .|
++-------------+
+
+Move 8: Player 2 (O, mc) plays column 1
+   v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . X . . .|
+|. . . O X . .|
+|. . . X O . .|
+|. O . X O . .|
++-------------+
+
+Move 9: Player 1 (X, minimax) plays column 4
+         v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . X X . .|
+|. . . O X . .|
+|. . . X O . .|
+|. O . X O . .|
++-------------+
+
+Move 10: Player 2 (O, mc) plays column 1
+   v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . . . . .|
+|. . . X X . .|
+|. . . O X . .|
+|. O . X O . .|
+|. O . X O . .|
++-------------+
+
+Move 11: Player 1 (X, minimax) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . X . . .|
+|. . . X X . .|
+|. . . O X . .|
+|. O . X O . .|
+|. O . X O . .|
++-------------+
+
+Move 12: Player 2 (O, mc) plays column 1
+   v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . X . . .|
+|. . . X X . .|
+|. O . O X . .|
+|. O . X O . .|
+|. O . X O . .|
++-------------+
+
+Move 13: Player 1 (X, minimax) plays column 1
+   v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . X . . .|
+|. X . X X . .|
+|. O . O X . .|
+|. O . X O . .|
+|. O . X O . .|
++-------------+
+
+Move 14: Player 2 (O, mc) plays column 4
+         v
+ 0 1 2 3 4 5 6
+|. . . . . . .|
+|. . . X O . .|
+|. X . X X . .|
+|. O . O X . .|
+|. O . X O . .|
+|. O . X O . .|
++-------------+
+
+Move 15: Player 1 (X, minimax) plays column 3
+       v
+ 0 1 2 3 4 5 6
+|. . . X . . .|
+|. . . X O . .|
+|. X . X X . .|
+|. O . O X . .|
+|. O . X O . .|
+|. O . X O . .|
++-------------+
+
+Move 16: Player 2 (O, mc) plays column 6
+             v
+ 0 1 2 3 4 5 6
+|. . . X . . .|
+|. . . X O . .|
+|. X . X X . .|
+|. O . O X . .|
+|. O . X O . .|
+|. O . X O . O|
++-------------+
+
+Move 17: Player 1 (X, minimax) plays column 5
+           v
+ 0 1 2 3 4 5 6
+|. . . X . . .|
+|. . . X O . .|
+|. X . X X . .|
+|. O . O X . .|
+|. O . X O . .|
+|. O . X O X O|
++-------------+
+
+Move 18: Player 2 (O, mc) plays column 6
+             v
+ 0 1 2 3 4 5 6
+|. . . X . . .|
+|. . . X O . .|
+|. X . X X . .|
+|. O . O X . .|
+|. O . X O . O|
+|. O . X O X O|
++-------------+
+
+Move 19: Player 1 (X, minimax) plays column 1
+   v
+ 0 1 2 3 4 5 6
+|. . . X . . .|
+|. X . X O . .|
+|. X . X X . .|
+|. O . O X . .|
+|. O . X O . O|
+|. O . X O X O|
++-------------+
+
+Move 20: Player 2 (O, mc) plays column 6
+             v
+ 0 1 2 3 4 5 6
+|. . . X . . .|
+|. X . X O . .|
+|. X . X X . .|
+|. O . O X . O|
+|. O . X O . O|
+|. O . X O X O|
++-------------+
+
+Move 21: Player 1 (X, minimax) plays column 6
+             v
+ 0 1 2 3 4 5 6
+|. . . X . . .|
+|. X . X O . .|
+|. X . X X . X|
+|. O . O X . O|
+|. O . X O . O|
+|. O . X O X O|
++-------------+
+
+Move 22: Player 2 (O, mc) plays column 0
+ v
+ 0 1 2 3 4 5 6
+|. . . X . . .|
+|. X . X O . .|
+|. X . X X . X|
+|. O . O X . O|
+|. O . X O . O|
+|O O . X O X O|
++-------------+
+
+Move 23: Player 1 (X, minimax) plays column 1
+   v
+ 0 1 2 3 4 5 6
+|. X . X . . .|
+|. X . X O . .|
+|. X . X X . X|
+|. O . O X . O|
+|. O . X O . O|
+|O O . X O X O|
++-------------+
+
+Move 24: Player 2 (O, mc) plays column 0
+ v
+ 0 1 2 3 4 5 6
+|. X . X . . .|
+|. X . X O . .|
+|. X . X X . X|
+|. O . O X . O|
+|O O . X O . O|
+|O O . X O X O|
++-------------+
+
+Move 25: Player 1 (X, minimax) plays column 0
+ v
+ 0 1 2 3 4 5 6
+|. X . X . . .|
+|. X . X O . .|
+|. X . X X . X|
+|X O . O X . O|
+|O O . X O . O|
+|O O . X O X O|
++-------------+
+
+Move 26: Player 2 (O, mc) plays column 2
+     v
+ 0 1 2 3 4 5 6
+|. X . X . . .|
+|. X . X O . .|
+|. X . X X . X|
+|X O . O X . O|
+|O O . X O . O|
+|O O O X O X O|
++-------------+
+
+Move 27: Player 1 (X, minimax) plays column 2
+     v
+ 0 1 2 3 4 5 6
+|. X . X . . .|
+|. X . X O . .|
+|. X . X X . X|
+|X O . O X . O|
+|O O X X O . O|
+|O O O X O X O|
++-------------+
+
+Move 28: Player 2 (O, mc) plays column 2
+     v
+ 0 1 2 3 4 5 6
+|. X . X . . .|
+|. X . X O . .|
+|. X . X X . X|
+|X O O O X . O|
+|O O X X O . O|
+|O O O X O X O|
++-------------+
+
+Move 29: Player 1 (X, minimax) plays column 2
+     v
+ 0 1 2 3 4 5 6
+|. X . X . . .|
+|. X . X O . .|
+|. X X X X . X|
+|X O O O X . O|
+|O O X X O . O|
+|O O O X O X O|
++-------------+
+
+RESULT: Player 1 (X, minimax) wins after 29 moves
