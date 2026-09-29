@@ -1,0 +1,4 @@
+bin/
+games/
+__pycache__/
+*.pdf
